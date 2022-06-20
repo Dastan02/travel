@@ -1,0 +1,106 @@
+.hero{
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        @include font('Playfair Display', 700, 64px,$text-dark__gray);
+
+        /*padding-top: 114px;*/
+        width: 400px;
+    
+      
+    }
+    &__suptitle {
+        @include font('Inter', 600, 22px,$text-dark__gray);
+        padding-top: 74px;
+    }
+
+    &__line {
+        width: 32px;
+        height: 2px;
+        background: $bg-dark__gray;
+        border-radius: 4px;
+        margin-top: 21px;
+    }
+
+   
+
+    &__right {
+        padding-top: 92px;
+        img{
+            max-width: 100%;
+        }
+    }
+    &__down {
+        margin-left: 60px;
+    }
+    &__down2 {
+        margin-left: 77px;
+    }
+    &__down3 {
+        margin-left: 79px;
+    }
+    &__suptitle2 {
+        @include font('Inter', 400, 15px,#4A4C53);
+
+        padding: 10px 20px;
+        border: 0.8px solid #AFB0B9;
+        border-radius: 6px;
+        background: $bg-white;
+    } 
+    &__suptitle3 {
+        @include font('Inter', 400, 15px,#4A4C53);
+
+        padding: 10px 22px 10px 20px;
+        border: 0.8px solid #AFB0B9;
+        border-radius: 6px;
+        background: $bg-white;
+    } 
+    &__suptitle4 {
+        @include font('Inter', 400, 15px,#4A4C53);
+
+        padding: 10px 21px 10px 20px;
+        border: 0.8px solid #AFB0B9;
+        border-radius: 6px;
+        background: $bg-white;
+    } 
+    &__select{
+        width: 385px;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 48px;
+    }
+    &__botton{
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+
+        border: 2px solid #FB8F1D ;
+        background: $bg-yellow;
+        padding: 16px 35px 15px 37px;
+        border-radius: 8px;
+        cursor:pointer;
+        transition: 0.3s;
+        &:hover{
+            background: $bg-white;
+            color:#FB8F1D;
+        }
+    }
+    &__bottom{
+        padding-top: 51px;
+    }
+    &__box{
+        cursor: pointer;
+    }
+    &__cicrle{
+       padding-left: 400px;
+    }
+    &__plus{
+        padding-top: 114px;
+        padding-left: 475px;
+    }
+}

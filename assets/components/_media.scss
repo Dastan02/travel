@@ -1,0 +1,298 @@
+@media screen and (max-width: 1243px) {
+    .features {
+        &__bottom {
+            flex-wrap: wrap;
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        &__box {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        &__content {
+            margin: 0 auto;
+        }
+
+    }
+
+    .story {
+        &__content {
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        &__bottom {
+            width: 700px;
+        }
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .comment {
+        &__content {
+            flex-wrap: wrap-reverse;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        &__right {
+            padding-left: 0;
+        }
+
+        &__icons {
+            left: 248px;
+        }
+
+        &__cicrle {
+            left: 370px;
+        }
+    }
+}
+
+@media screen and (max-width: 981px) {
+    .guides {
+        &__content {
+            flex-wrap: wrap-reverse;
+            max-width: 555px;
+            margin: 0 auto;
+        }
+
+        &__left {
+            padding-top: 30px;
+        }
+    }
+
+    .way {
+        &__content {
+            flex-wrap: wrap;
+            max-width: 440px;
+            margin: 0 auto;
+        }
+
+        &__right {
+            padding-top: 30px;
+        }
+    }
+
+    .footer {
+        &__box1 {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .story {
+        &__bottom {
+            flex-wrap: wrap;
+            ;
+        }
+    }
+
+    .features {
+        &__bottom {
+            width: 0;
+            margin: 0 auto;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        &__content {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 854px) {
+
+    .burger {
+        &__menu {
+            display: block;
+        }
+
+        &__list {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .header {
+        &__list {
+            display: none;
+        }
+    }
+
+    .hero {
+        &__content {
+            flex-wrap: wrap-reverse;
+        }
+    }
+
+    .way {
+        &__right {
+            padding-left: 0;
+        }
+    }
+
+    .features {
+        &__cicrle {
+            padding-left: 58px;
+        }
+    }
+}
+
+/*@media screen and (max-width: 751px) {
+    .header {
+        &__list {
+            display: none;
+        }
+
+        &__content {
+            flex-wrap: wrap-reverse;
+        }
+
+        &__left {
+            img {
+                width: 230px;
+            }
+        }
+    }*/
+
+@media screen and (max-width: 750px) {
+    .story {
+        &__bottom {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 0;
+        }
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .way {
+        &__right {
+            padding-left: 0;
+            margin: 0 auto;
+            width: 330px;
+        }
+
+        &__description {
+            width: 330px;
+        }
+
+        &__plus {
+            padding-top: 286px;
+            padding-left: 205px;
+        }
+    }
+
+    .features {
+        &__bottom {
+            margin-left: 0;
+            margin: 0 auto;
+        }
+
+        &__cicrle1 {
+            padding-top: 50px;
+            padding-left: 80px;
+        }
+    }
+
+    .guides {
+        &__description {
+            width: 330px;
+        }
+    }
+
+    .comment {
+        &__suptitle {
+            width: 330px;
+            padding-top: 50px;
+            padding-bottom: 60px;
+        }
+
+        &__content {
+            margin-left: 20px;
+        }
+
+        &__photo {
+            width: 300px;
+        }
+
+        &__icons {
+            left: 185px;
+            display: flex;
+        }
+
+        &__plus {
+            top: 440px;
+            right: 280px;
+        }
+
+        &__plus1 {
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        &__cicrle {
+            left: 280px;
+            top: 25px;
+        }
+    }
+
+    .story {
+        &__bottom {
+            width: 0;
+            margin-left: 30px;
+        }
+
+        &__see {
+            padding-top: 20px;
+        }
+
+        &__plus {
+            padding-top: 213px;
+            padding-left: 219px;
+        }
+    }
+
+    .footer {
+        &__title {
+            width: 0;
+        }
+        &__suptitle{
+            width: 280px;
+        }
+    }
+
+    .hero {
+        &__plus {
+            padding-left: 189px;
+        }
+
+        &__cicrle {
+            padding-left: 150px;
+        }
+
+        &__select {
+            display: flex;
+            flex-direction: column;
+            width: 184px;
+            height: 183px;
+        }
+    }
+    .hero{
+        &__title{
+         width: 200px;
+        }
+    }
+}

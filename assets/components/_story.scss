@@ -1,0 +1,117 @@
+.story {
+    &__title {
+        @include font('Playfair Display', 700, 36px,$text-black);
+
+        padding-top: 57px;
+        /*padding-bottom: 56px;*/
+    }
+  
+    &__suptitle {
+        @include font('Inter', 700, 19px,$text-black);
+
+        padding-top: 13px;
+        padding-bottom: 13px;
+        width: 219px;
+    }
+    &__suptitle2 {
+        @include font('Inter', 700, 19px,$text-black);
+
+        padding-top: 13px;
+        padding-bottom: 13px;
+        width: 242px;
+    }
+    &__suptitle3 {
+        @include font('Inter', 700, 19px,$text-black);
+
+        padding-top: 13px;
+        padding-bottom: 13px;
+        width: 252px;
+    }
+    &__suptitle4 {
+        @include font('Inter', 700, 19px,$text-black);
+
+        padding-top: 13px;
+        padding-bottom: 13px;
+        width: 251px;
+    } 
+    &__description {
+        @include font('Inter', 400, 15px,$text-light__gray);
+
+        width: 266px;
+    }
+    &__btn {
+        @include font('Inter', 600, 15px,$text-yellow);
+
+        padding-top: 23px;
+       /* padding-bottom: 270px;*/
+        cursor: pointer;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+  
+    &__content{
+        margin: 0 0 0 30px;
+    }
+    &__photo11 {
+        width: 284px;
+        height: 260px;
+        border-radius: 9px 9px 0 0;
+        &:hover{
+            background: url(/img/story/img33.png);
+        }
+    }
+
+    &__photo22 {
+        width: 284px;
+        height: 260px;
+        border-radius: 9px 9px 0 0;
+    }
+
+    &__photo33 {
+        width: 284px;
+        height: 260px;
+        border-radius: 9px 9px 0 0;
+    }
+
+    &__photo44 {
+        width: 284px;
+        height: 260px;
+        border-radius: 9px 9px 0 0;
+    }
+
+    &__box {
+        padding-top: 56px;
+    }
+
+    &__view {
+        @include font('Inter', 600, 17px,$text-yellow);
+        cursor: pointer;
+      
+    }
+    &__all{
+        margin-left: 11px;
+    }
+    &__see{
+            display: flex;
+            justify-content: flex-end;
+    }
+    &__plus{
+        padding-top: 213px;
+        padding-left: 460px;
+    }
+    &__cicrle{
+        padding-top: 60px;
+        padding-right: 30px;
+        
+    }
+    &__up{
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 100px;
+    }
+    
+}

@@ -1,0 +1,55 @@
+.way{
+    &__title {
+        @include font('Playfair Display', 700, 36px,$text-black);
+
+    }
+
+    &__description {
+        @include font('Mulish', 300, 17.5px,$text-light__gray);
+
+        padding-top: 20px;
+        width: 450px;
+        height: 120px;
+    }
+    &__botton-more{
+        padding-top: 30px;
+    }
+    &__btn {
+        @include font('Inter', 600, 16px,$text-white);
+
+        border: 2px solid #FB8F1D ;
+        background: $bg-yellow;
+        padding: 16px 35px 15px 37px;
+        border-radius: 8px;
+        cursor:pointer;
+        transition: 0.3s;
+        &:hover{
+            background: $bg-white;
+            color:#FB8F1D;
+        }
+        
+    }
+    
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /*padding-top: 286px;*/
+    }
+    &__right{
+        padding-left: 102px;
+    }
+    &__plus{
+        padding-top: 286px;
+        padding-left: 650px;
+    }
+    &__cicrle{
+        padding-left: 260px;
+    }
+    &__left{
+        img{
+            max-width: 100%;
+        }
+    }
+
+}

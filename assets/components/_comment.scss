@@ -1,0 +1,68 @@
+.comment {
+    &__title {
+        @include font('Playfair Display', 700, 36px, $text-black);
+        padding-top: 248px;
+        margin-left: 30px;
+    }
+    &__star {
+        padding: 145px 15px 0 0;
+    }
+    &__suptitle {
+        @include font('Mulish', 400, 24px, $text-black);
+        width: 450px;
+        height: 144px;
+
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    &__content {
+        display: flex;
+        margin: 0 30px 0 30px;
+    }
+    &__right {
+        padding-top: 60px;
+        padding-left: 225px;
+        position: relative;
+    }
+    &__name {
+        @include font('Inter', 700, 22px, $text-black);
+        padding-bottom: 11px;
+    }
+    &__details {
+        @include font('Inter', 400, 18px, rgba(0, 0, 0, 0.85));
+    }
+    &__photo {
+        border-radius: 16px 16px 0 0;
+    }
+    &__icon__next {
+        padding-left: 22px;
+    }
+    &__icons {
+        border: none;
+        background: #fff;
+        padding: 20px 0 0 30px;
+        border-radius: 16px 0px 0px 0px;
+
+        position: absolute;
+        top: 492px;
+        left: 473px;
+        bottom: 0;
+    }
+    &__plus {
+        width: 31px;
+        height: 31px;
+        transform: rotate(8.17deg);
+        position: absolute;
+        top: 542px;
+        right: 366px;
+
+    }
+    &__cicrle {
+        position: absolute;
+        left: 582px;
+        bottom: 475px;
+    }
+    &__plus1{
+        padding-left: 420px;
+    }
+}

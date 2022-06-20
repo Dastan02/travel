@@ -1,0 +1,55 @@
+.guides{
+    &__content {
+        display: flex;
+        align-items: center;
+        margin: 0 30px 0 30px;
+        
+    }
+    &__title {
+        @include font('Playfair Display', 700, 36px,$text-black);
+        width: 400px;
+        height: 100px;
+    }
+
+    &__description {
+        @include font('Mulish', 300, 17.5px,$text-light__gray);
+        padding-top: 20px;
+        width: 450px;
+        height: 90px;
+    }
+
+    &__bottom {
+        @include font('Inter', 600, 16px,$text-white);
+
+        width: 90px;
+        margin-top: 39px;
+
+        border: 2px solid #FB8F1D ;
+        background: $bg-yellow;
+        padding: 16px 34px 15px 40px;
+        border-radius: 8px;
+        cursor:pointer;
+        transition: 0.3s;
+        &:hover{
+            background: $bg-white;
+            color:#FB8F1D;
+        }
+    }
+  
+    &__right{
+        padding-left: 80px;
+        img{
+            max-width: 100%;
+        }
+    }
+    &__cicrle{
+        padding-right: 40px;
+    }
+    &__cicrle1{
+        margin-top: 150px;
+        padding-left: 230px;
+    }
+    &__plus{
+        padding-left: 330px;
+    }
+}

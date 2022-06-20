@@ -1,0 +1,6 @@
+@mixin font($dastan, $emirlan, $erjan, $rahim){
+    font-family: $dastan;
+    font-weight: $emirlan;
+    font-size: $erjan;
+    color: $rahim;
+}

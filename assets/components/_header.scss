@@ -1,0 +1,53 @@
+.header {
+    padding-top: 45px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        margin-right: 34px;
+    }
+    &__item1 {
+        margin-right: 18px;
+    }
+
+    &__link11 {
+        @include font('Inter', 500, 16px,$text-dark__gray);
+
+    }
+
+    &__link {
+        @include font('Inter', 400, 16px,#B8BECD);
+    }
+
+    &__botton {
+        @include font('Inter', 500, 15px,$bg-yellow);
+
+        padding-right: 34px;
+
+        border: 2px solid #FB8F1D ;
+        background: $bg-white;
+        padding: 16px 46px 15px 46px;
+        border-radius: 8px;
+        cursor:pointer;
+        
+    }
+
+    &__botton2 {
+        @include font('Inter', 500, 15px,$text-white);
+
+        border: none;
+        background: $text-yellow;
+        padding: 18px 48px 18px 48px;
+        border-radius: 8px;
+        cursor:pointer;
+    }
+}

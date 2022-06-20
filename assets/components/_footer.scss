@@ -1,0 +1,50 @@
+.footer {
+    background: $bg-gray;
+    &__logo {
+        padding-top: 92px;
+        padding-bottom: 40px;
+    }
+
+    &__suptitle {
+        @include font('Mulish', 300, 18px,$text-light__gray);
+        width: 391px;
+        padding-bottom: 55px;
+    }
+
+    &__description {
+        @include font('Mulish', 300, 17px,$text-light__gray);
+    }
+
+    &__item {
+        @include font('Mulish', 300, 18px,$text-light__gray);
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+
+    &__suptitle1 {
+        @include font('Mulish', 700, 19px,$text-black);
+        padding-top: 95px;
+        margin-bottom: 20px;
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    &__icons{
+        padding-top: 30px;
+        padding-bottom: 32px;
+        margin-right: 35px;
+        cursor: pointer;
+    }
+    &__social{
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #C4C4C4;
+        margin-top: 77px;
+    }
+    &__box1{
+        padding-top: 10px;
+    }
+    
+}
